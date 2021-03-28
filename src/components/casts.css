@@ -1,0 +1,106 @@
+.main-cast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.main-cast .wrap-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.main-cast .wrap-container .element {
+    width: 23%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    --color: #424542;
+    transition: all 0.3s ease;
+}
+
+.main-cast .wrap-container .element .image-wapper {
+    width: 100%;
+    height: auto;
+    min-height: 150px;
+    max-height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-cast .wrap-container .element img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    position: absolute;
+    min-height: 100%;
+}
+
+.main-cast .wrap-container .element .wrap {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 190px;
+}
+
+.main-cast .wrap-container .element .wrap h3 a {
+    font-family: inherit;
+    color: var(--color);
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #6a6a6aad;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.main-cast .wrap-container .element .wrap small {
+    font-size: 9px;
+    color: var(--color);
+}
+
+
+.main-cast .wrap-container .element .wrap p {
+    font-size: 11px;
+    line-height: 19px;
+    width: 91%;
+    margin-top: 11px;
+    text-align: justify;
+    color: var(--color);
+}
+
+.main-cast .wrap-container .element .wrap a {
+    color: var(--color);
+}
+
+.main-cast .wrap-container .element:hover {
+    --color: #fff;
+    background-color: #bc4242;
+}
+
+.main-cast .wrap-container .element:hover img {
+    transform: scale(1.1);
+}
+
+.main-cast .main-cast-title {
+    font-family: inherit;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: rgb(221, 52, 52);
+    letter-spacing: 4px;
+    font-weight: 100;
+    padding-top: 80px;
+    margin-bottom: 45px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid rgba(221, 52, 52, 0.62);
+}

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+.music-container {
+    position: relative;
+    --mins-heights: 410px;
+    min-height: var(--mins-heights);
+    max-height: var(--mins-heights);
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.music-container .d-pos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: var(--mins-heights);
+    background-image: url("./../image/Money-Heist-Phenomenon.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(0.5);
+    z-index: 5;
+}
+
+.music-container .d-rel {
+    position: absolute;
+    z-index: 10;
+    margin: 0 auto;
+    min-height: var(--mins-heights);
+}
+
+.music-container .d-rel .music-wapper {
+    width: 100%;
+    min-height: var(--mins-heights);
+    /* padding-top: 75px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.music-container .d-rel .music-wapper .title {
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.music-container .d-rel .music-wapper .music-column-wapper {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.music-container .d-rel .music-wapper .music-column-wapper:last-child {
+    margin-bottom: 0px;
+}
+
+.music-container .d-rel .music-wapper .music-column-wapper .wapper-head {
+    width: 100%;
+    height: auto;
+    min-height: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.music-container .d-rel .music-wapper .music-column-wapper .wapper-head .left {
+    width: 40%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.music-container .d-rel .music-wapper .music-column-wapper .wapper-head .left .div-img {
+    width: 32px;
+    min-height: 30px;
+    max-height: 24px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin: 0px 10px 0px 10px;
+}
+
+.music-container .d-rel .music-wapper .music-column-wapper .wapper-head .left h4.title {
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}
+
+.music-container .d-rel .music-wapper .music-column-wapper .wapper-head .right span.icon {
+    font-size: 18px;
+    margin-right: 13px;
+    cursor: pointer;
+    color: inherit;
+}
+
+.music-container .d-rel .music-wapper .music-column-wapper .wapper-body {
+    margin-top: 10px;
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    padding: 14px;
+    line-height: 15px;
+    transition: all 0.6s ease;
+    animation-name: myAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes myAnimation {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+.music-container .d-rel .music-wapper .music-column-wapper .wapper-body p {
+    font-size: 12px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: normal;
+}

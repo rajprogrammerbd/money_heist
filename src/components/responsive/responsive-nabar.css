@@ -1,0 +1,11 @@
+@media only screen and ( max-width: 745px ) {
+    .wapper header .top .right img {
+        display: block;
+        width: 18px;
+        cursor: pointer;
+        color: #ffffff;
+    }
+    .wapper header .top .right ul {
+        display: none;
+    }
+}

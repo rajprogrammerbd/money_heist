@@ -1,0 +1,35 @@
+.footer-container {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-container .wapper .footer-section {
+    padding: 12px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-container .wapper .footer-section .left h2 a {
+    font-family: 'Girassol', cursive;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 29px;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 2px #646464;
+}
+
+.footer-container .wapper .footer-section .left h2 a span {
+    color: red;
+}
+
+.footer-container .wapper .footer-section .right p {
+    font-family: inherit;
+    font-size: 12px;
+}

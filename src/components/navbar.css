@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400&display=swap');
+
+.wapper {
+    width: 86.48%;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.wapper header {
+    width: 100%;
+    max-width: 100%;
+    --min-header-height: 570px;
+    min-height: var(--min-header-height);
+    --min-header-top-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wapper header .top {
+    width: 100%;
+    min-height: var(--min-header-top-height);
+    max-height: var(--min-header-top-height);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.wapper header .bottom {
+    width: 100%;
+    min-height: calc(var(--min-header-height) - var(--min-header-top-height));
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-part {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("./../image/netflix-money-heist.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.7);
+    overflow: hidden;
+}
+
+.wapper header .top .left h2 a.main-title {
+    font-family: 'Girassol', cursive;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 29px;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 2px #646464;
+}
+
+.wapper header .top .right ul {
+    list-style-type: none;
+}
+
+.wapper header .top .right ul li {
+    float: left;
+}
+
+.wapper header .top .right ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: lighter;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 0px 0px 0px 27px;
+}
+
+.wapper header .bottom h2 {
+    font-family: 'Anton', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wapper header .bottom button {
+    background-color: rgb(221, 52, 52);
+    border: none;
+    color: #ffffff;
+    padding: 10px 17px;
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 300;
+    outline: 0;
+    /* box-shadow: 0px 1px 4px #4c4c4c; */
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 11px #bbbbbb;
+}
+
+.wapper header .top .right img {
+    display: none;
+}
+
+.hover-res-nav {
+    display: none;
+}
+
+.hover-res-nav ul {
+    list-style-type: none;
+}
+
+.hover-res-nav ul li {
+    float: none;
+    text-align: center;
+}
+
+.hover-res-nav ul li a {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+}

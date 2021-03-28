@@ -1,0 +1,30 @@
+@media only screen and ( min-width:868px ) and ( max-width: 1054px ) {
+    .container .wapper .total_wap .left h2 {
+        font-size: 18px;
+    }
+    .container .wapper .total_wap .left p {
+        font-size: 11px;
+    }
+    .container .wapper .total_wap .right img {
+        width: 80%;
+    }
+}
+
+@media only screen and ( min-width: 745px ) and ( max-width: 867px ) {
+    .container .wapper .total_wap .left {
+        width: 60%;
+    }
+    .container .wapper .total_wap .right {
+        width: 30%;
+    }
+    .container .wapper .total_wap .left h2 {
+        font-size: 18px;
+    }
+    .container .wapper .total_wap .left p {
+        font-size: 9px;
+        line-height: 20px;
+    }
+    .container .wapper .total_wap .right img {
+        padding: 5px;
+    }
+}
