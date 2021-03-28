@@ -11,7 +11,6 @@ class App extends Component {
   render() { 
     return (
     <React.Fragment>
-      <h2>Hello World!</h2>
       <Home />
     </React.Fragment>
     );
