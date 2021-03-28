@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="wapper">
                     <div className="footer-section">
                         <div className="left">
-                            <h2><a href="">Money<span>Heist</span></a></h2>
+                            <h2><a href="/">Money<span>Heist</span></a></h2>
                         </div>
                         <div className="right">
                             <p>© Copyright 2020 The Movie - All rights Reserved.</p>
