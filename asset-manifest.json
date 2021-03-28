@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/money_heist/static/css/main.58b1cfcf.chunk.css",
-    "main.js": "/money_heist/static/js/main.cbff4e5d.chunk.js",
-    "main.js.map": "/money_heist/static/js/main.cbff4e5d.chunk.js.map",
+    "main.js": "/money_heist/static/js/main.9afabf59.chunk.js",
+    "main.js.map": "/money_heist/static/js/main.9afabf59.chunk.js.map",
     "runtime-main.js": "/money_heist/static/js/runtime-main.3cde58be.js",
     "runtime-main.js.map": "/money_heist/static/js/runtime-main.3cde58be.js.map",
     "static/js/2.3839d3ac.chunk.js": "/money_heist/static/js/2.3839d3ac.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.3cde58be.js",
     "static/js/2.3839d3ac.chunk.js",
     "static/css/main.58b1cfcf.chunk.css",
-    "static/js/main.cbff4e5d.chunk.js"
+    "static/js/main.9afabf59.chunk.js"
   ]
 }
