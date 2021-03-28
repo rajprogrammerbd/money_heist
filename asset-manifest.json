@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/money_heist/static/css/main.58b1cfcf.chunk.css",
+    "main.js": "/money_heist/static/js/main.86df11f3.chunk.js",
+    "main.js.map": "/money_heist/static/js/main.86df11f3.chunk.js.map",
+    "runtime-main.js": "/money_heist/static/js/runtime-main.3cde58be.js",
+    "runtime-main.js.map": "/money_heist/static/js/runtime-main.3cde58be.js.map",
+    "static/js/2.3839d3ac.chunk.js": "/money_heist/static/js/2.3839d3ac.chunk.js",
+    "static/js/2.3839d3ac.chunk.js.map": "/money_heist/static/js/2.3839d3ac.chunk.js.map",
+    "static/js/3.dded2669.chunk.js": "/money_heist/static/js/3.dded2669.chunk.js",
+    "static/js/3.dded2669.chunk.js.map": "/money_heist/static/js/3.dded2669.chunk.js.map",
+    "index.html": "/money_heist/index.html",
+    "static/css/main.58b1cfcf.chunk.css.map": "/money_heist/static/css/main.58b1cfcf.chunk.css.map",
+    "static/js/2.3839d3ac.chunk.js.LICENSE.txt": "/money_heist/static/js/2.3839d3ac.chunk.js.LICENSE.txt",
+    "static/media/music.css": "/money_heist/static/media/Money-Heist-Phenomenon.36f8e446.jpg",
+    "static/media/navbar.css": "/money_heist/static/media/netflix-money-heist.8d560b56.png",
+    "static/media/stream.css": "/money_heist/static/media/netflix.af43fab1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cde58be.js",
+    "static/js/2.3839d3ac.chunk.js",
+    "static/css/main.58b1cfcf.chunk.css",
+    "static/js/main.86df11f3.chunk.js"
+  ]
+}
